@@ -120,7 +120,7 @@ String page(const String &notice = "") {
     ".notice{background:#eef4ff;padding:10px;border-radius:8px}</style></head><body><main>"
     "<h1>ESP32 Smart Parking</h1>";
   if (notice.length()) html += "<p class='notice'>" + notice + "</p>";
-  html += form + "<small>Local-network demonstration prototype</small></main></body></html>";
+  html += form + "<small>Local-network demonstration prototype. Refresh manually after a sensor event.</small></main></body></html>";
   return html;
 }
 
