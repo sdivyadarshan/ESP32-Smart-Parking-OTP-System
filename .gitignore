@@ -1,0 +1,22 @@
+# Private credentials
+secrets.h
+**/secrets.h
+
+# Arduino build output
+build/
+.cache/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
